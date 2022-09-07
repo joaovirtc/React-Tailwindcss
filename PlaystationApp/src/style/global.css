@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-gray-100 overflow-hidden;
+}
+
+/* input[type="text"]:focus ~ .input-text,
+input[type="text"]:not(:placeholder-shown) ~ .input-text {
+  @apply text-blue-600 transform -translate-y-7 -translate-x-2 scale-75;
+}
+input[type="password"]:focus ~ .input-text,
+input[type="password"]:not(:placeholder-shown) ~ .input-text {
+  @apply text-blue-600 transform -translate-y-7 -translate-x-2 scale-75;
+} */
